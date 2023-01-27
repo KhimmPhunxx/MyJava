@@ -13,11 +13,12 @@ public class Test1 extends JFrame {
         c=getContentPane();
         p= new JPanel();
         p.setLayout(new BorderLayout());
-        b1=new JButton("One"); p.add(b1,"North");
-        b2=new JButton("Two"); p.add(b2,"South");
-        b3=new JButton("Three"); p.add(b3,"East");
-        b4=new JButton("Four"); p.add(b4,"West");
-        b5=new JButton("Five"); p.add(b5,"Center");
+        b1=new JButton("North"); p.add(b1,"North");
+        b2=new JButton("South"); p.add(b2,"West");
+        b3=new JButton("East"); p.add(b3,"East");
+        /*b4=new JButton("West"); p.add(b4,"West");
+        b5=new JButton("Center"); p.add(b5,"Center");
+        c.add(p);*/
         c.add(p);
     }
     public void initForm(){
