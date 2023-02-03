@@ -143,7 +143,7 @@ public class Form1 extends JFrame {
 
         bta.addActionListener(e -> {
             String report;
-            String kk= jcb.getSelectedItem().toString()+"/"+jcb2.getSelectedItem().toString()+"/"+jcb3.getSelectedItem().toString();
+            String kk= jcb.getSelectedItem().toString()+"-"+jcb2.getSelectedItem().toString()+"-"+jcb3.getSelectedItem().toString();
             String gender = "";
             String text = cb.getText();
             if(ch1.isSelected()) gender=ch1.getText();
